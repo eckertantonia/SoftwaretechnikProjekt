@@ -1,0 +1,9 @@
+#!/usr/bin/env sh
+. "$(dirname "$0")/_/husky.sh"
+
+./gradlew spotlessJavaCheck # check backend code format
+./gradlew spotlessApply # reformat backend code
+./gradlew test # run backend unit tests
+cd frontend
+npm test # run frontend unit tests
+npm run lint # lint frontend code

@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* Sämtliches CSS nur dafür da, um Scrollbars auszublenden.*/
+
+body {
+  scrollbar-width: none;
+}
+
+html {
+  /* ms-overflow-style for Internet Explorer, Edge */
+  -ms-overflow-style: none;
+  /* scrollbar-width for Firefox */
+  scrollbar-width: none;
+  overflow: hidden;
+}
+
+/* for Chrome, Safari, and Opera */
+html::-webkit-scrollbar {
+  display: none;
+}
+
+#vehicleMenu {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none;
+}
+/*for Chrome, Safari, and Opera*/
+#vehicleMenu::-webkit-scrollbar {
+  display: none;
+}

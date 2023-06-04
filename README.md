@@ -1,6 +1,12 @@
-# SWTP Team 3
+# Softwaretechnik Projekt WS22/23
+Dieses Projekt entstand im Rahmen des Moduls Softwaretechnik Projekt im Wintersemester 2022/23 an der Hochschule RheinMain.
+Insgesamt war eine Gruppe von 11 Studierenden an diesem Projekt beteiligt und haben sich mit SCRUM organisiert.
 
-## Installation & Usage
+Aufgabe war es, ein Spiel zu entwickeln bei dem man mit mehreren Spielern ein Straßennetz aufbauen kann und sich auch selbstständig durch dieses bewegen kann. 
+
+## SWTP Team 3
+
+### Installation & Usage
 
 1. Clone the [repository](https://scm.mi.hs-rm.de/rhodecode/2022swtpro/2022swtpro03/swtp-3)
 2. `cd swtp-3`
@@ -23,15 +29,15 @@ or
 9. Enter username and press play
 10. Join a server
 
-## Keyboad Shortcuts
+### Keyboad Shortcuts
 
-### 2D
+#### 2D
 
 | Key | Action       |
 | --- | ------------ |
 | `R` | Rotate Block |
 
-### 3D
+#### 3D
 
 | Key          | Action           |
 | ------------ | ---------------- |
@@ -50,13 +56,13 @@ or
 | `P`          | Play/Pause music |
 | `ESC`        | Leave 3D View    |
 
-## Links
+### Links
 
 - [Repository](https://scm.mi.hs-rm.de/rhodecode/2022swtpro/2022swtpro03/swtp-3)
 - [Taiga](https://taiga.mi.hs-rm.de/project/admin-2022swtpro03/timeline)
 - [Jenkins](https://build3.intern.mi.hs-rm.de/)
 - [SonarQube](https://build3.intern.mi.hs-rm.de/sonar)
 
-## Configuration
+### Configuration
 
 If one wishes to modify the users experience the `swtp.config.json` file can be modified. It holds all configuration options for the game. If it is modified the .jar must be rebuilt for the changes to take effect, if the application is being run using `bootRun` and `vite` a site refresh should reflect new changes.
